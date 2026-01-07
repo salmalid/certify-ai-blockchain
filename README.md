@@ -1,12 +1,12 @@
-# 🔐 Certify AI - Blockchain Model Certification System
+#  Certify AI - Blockchain Model Certification System
 
-** blockchain-based AI model certification with cryptographic integrity and duplicate prevention**
+ **blockchain-based AI model certification with cryptographic integrity and duplicate prevention**
 
 > A complete, production-ready system for certifying ML/DL models using blockchain technology, IPFS storage, and SHA-256 hashing. Features file uniqueness enforcement, single-step registration, and full transparency.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **🔍 Dual-Mode Interface**: Register new models OR verify existing ones on the blockchain
 - **🔒 File Hash Uniqueness**: Prevents duplicate model registration - same file cannot be registered twice
@@ -21,7 +21,7 @@
 
 ---
 
-## 🎯 Use Cases
+##  Use Cases
 
 - **🎓 Academic Research**: Prove authorship and publication dates
 - **🏢 Industry Compliance**: EU AI Act model provenance requirements
@@ -31,7 +31,7 @@
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌──────────────┐
@@ -87,7 +87,7 @@
 
 ---
 
-## 📦 Prerequisites
+##  Prerequisites
 
 | Software | Version | Purpose |
 |----------|---------|---------|
@@ -104,7 +104,7 @@
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Install Dependencies
 
@@ -276,7 +276,7 @@ python tools/compute_hash.py downloaded_model.pkl
 
 ---
 
-## 🔒 Security Features
+##  Security Features
 
 ### File Hash Uniqueness
 
@@ -288,11 +288,6 @@ if (hashExists[fileHash]) {
     revert("Model file already registered as 'existing-model' by 0x...");
 }
 ```
-
-**What this means**:
-- ✅ You register `my-model` with file `model.pkl`
-- ❌ Someone tries to register `stolen-model` with SAME file
-- 🚫 Transaction **REVERTS** with error showing YOUR model name and address
 
 ### Ownership Protection
 
@@ -355,7 +350,7 @@ if (hashExists[fileHash]) {
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 certify-ai-blockchain/
@@ -381,7 +376,7 @@ certify-ai-blockchain/
 
 ---
 
-## 🔧 API Endpoints
+##  API Endpoints
 
 ### Backend API (http://localhost:3001/api)
 
@@ -395,32 +390,6 @@ certify-ai-blockchain/
 | `/upload` | POST | Upload file to IPFS |
 | `/hash` | POST | Compute file hash |
 | `/verify` | POST | Verify file hash |
-
----
-
-## 🧪 Testing
-
-### Create Test Model
-
-```bash
-python test_model.py
-```
-
-This creates `simple_classifier_v1.pkl` for testing.
-
-### Test Duplicate Prevention
-
-1. Register model with `simple_classifier_v1.pkl`
-2. Try to register again with different name
-3. Expected: ❌ **Error** - "Model file already registered"
-
-### Verify Hash
-
-```bash
-python tools/compute_hash.py simple_classifier_v1.pkl
-```
-
-Compare output with blockchain hash.
 
 ---
 
