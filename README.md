@@ -308,7 +308,7 @@ if (hashExists[fileHash]) {
 
 ---
 
-## 🤖 Supported Model Types
+##  Supported Model Types
 
 ### Frameworks (7)
 - PyTorch
