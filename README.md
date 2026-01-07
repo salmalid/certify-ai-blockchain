@@ -401,16 +401,6 @@ TRI Department, National School of Applied Sciences, El Jadida, Morocco
 
 ---
 
-## 🎓 For Academic/Research Use
-
-This system provides:
-
-- **Provenance Tracking**: Immutable record of model authorship
-- **Timestamp Proof**: Blockchain timestamp proves creation date
-- **Duplicate Prevention**: Ensures model uniqueness
-- **Transparency**: All data publicly verifiable
-- **Compliance**: Meets EU AI Act requirements
-
 ### Citation
 
 If you use this system in research, please cite:
@@ -421,14 +411,13 @@ If you use this system in research, please cite:
   author = {Lidame, Salma and Saber, Nada},
   year = {2026},
   institution = {National School of Applied Sciences, El Jadida},
-  department = {TRI Department},
-  url = {https://github.com/[your-repo]}
+  department = {TRI Department}
 }
 ```
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### IPFS not responding
 ```bash
@@ -451,7 +440,7 @@ ipfs daemon
 
 ---
 
-## 📝 Environment Variables
+##  Environment Variables
 
 ### Backend `.env`
 
@@ -469,7 +458,7 @@ IPFS_API_URL=http://127.0.0.1:5001
 
 ---
 
-## 🔄 Workflow Diagram
+##  Workflow Diagram
 
 ```
 User Uploads File
@@ -493,18 +482,6 @@ Registration       ↓
                ✅ Certified!
 ```
 
----
-
-## 🚀 Next Steps (Optional Enhancements)
-
-- [ ] Multi-chain support (Ethereum, Polygon, etc.)
-- [ ] Model comparison features
-- [ ] Citation tracking
-- [ ] Access control for private models
-- [ ] Model marketplace
-
----
-
 
 ## 🤝 Contributing
 
@@ -513,13 +490,4 @@ Contributions welcome! Please:
 2. Create a feature branch
 3. Make your changes
 4. Submit a pull request
-
----
-
-## 📞 Support
-
-For issues or questions:
-- Open an issue on GitHub
-- Check troubleshooting section above
-- Review the walkthrough documentation
 
