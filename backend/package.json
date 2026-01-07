@@ -1,0 +1,24 @@
+{
+    "name": "certify-ai-backend",
+    "version": "1.0.0",
+    "description": "Backend API for AI Model Certification with IPFS and Blockchain",
+    "main": "server.js",
+    "author": "Salma Lidame <lidame.s006@ucd.ac.ma> and Nada Saber <saber.n842@ucd.ac.ma>",
+    "license": "MIT",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "ethers": "^6.11.1",
+        "express": "^4.18.2",
+        "form-data": "^4.0.5",
+        "multer": "^1.4.5-lts.1",
+        "node-fetch": "^3.3.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.3"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "certify-ai-blockchain",
+    "version": "1.0.0",
+    "description": "A Blockchain-Based Framework for AI Model Registration and Verification",
+    "main": "index.js",
+    "scripts": {
+        "test": "npx hardhat test"
+    },
+    "keywords": [
+        "blockchain",
+        "ai",
+        "machine-learning",
+        "certification",
+        "ipfs",
+        "ethereum"
+    ],
+    "author": "Salma Lidame <lidame.s006@ucd.ac.ma> and Nada Saber <saber.n842@ucd.ac.ma>",
+    "license": "MIT",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+        "hardhat": "^2.22.0"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.0"
+    }
+}
