@@ -8,26 +8,26 @@
 
 ## Key Features
 
-- **🔍 Dual-Mode Interface**: Register new models OR verify existing ones on the blockchain
-- **🔒 File Hash Uniqueness**: Prevents duplicate model registration - same file cannot be registered twice
-- **✅ Public Verification**: Anyone can verify model authenticity by uploading the file
-- **⚡ Single-Step Registration**: Upload file + metadata in one seamless workflow
-- **👁️ Full Transparency**: Complete ownership chain, version history, and blockchain proof
-- **🔐 Immutability Proof**: Cryptographic timestamps and hashes that cannot be altered
-- **🤖 Comprehensive ML/DL Support**: 17 model types (CNN, RNN, Transformer, GAN, VAE, BERT, GPT, etc.)
-- **📦 IPFS Storage**: Decentralized, permanent file storage
-- **🔗 Blockchain Immutability**: Tamper-proof records on Ethereum-compatible blockchain
-- **✅ Cryptographic Verification**: SHA-256 hashing for file integrity
+- ** Dual-Mode Interface**: Register new models OR verify existing ones on the blockchain
+- ** File Hash Uniqueness**: Prevents duplicate model registration - same file cannot be registered twice
+- ** Public Verification**: Anyone can verify model authenticity by uploading the file
+- ** Single-Step Registration**: Upload file + metadata in one seamless workflow
+- ** Full Transparency**: Complete ownership chain, version history, and blockchain proof
+- ** Immutability Proof**: Cryptographic timestamps and hashes that cannot be altered
+- ** Comprehensive ML/DL Support**: 17 model types (CNN, RNN, Transformer, GAN, VAE, BERT, GPT, etc.)
+- ** IPFS Storage**: Decentralized, permanent file storage
+- ** Blockchain Immutability**: Tamper-proof records on Ethereum-compatible blockchain
+- ** Cryptographic Verification**: SHA-256 hashing for file integrity
 
 ---
 
 ##  Use Cases
 
-- **🎓 Academic Research**: Prove authorship and publication dates
-- **🏢 Industry Compliance**: EU AI Act model provenance requirements
-- **🔬 Reproducible Science**: Track model lineage and datasets
-- **🤝 Open Source AI**: Clear attribution and licensing
-- **⚖️ Legal Protection**: Blockchain timestamp as tamper-proof evidence
+- ** Academic Research**: Prove authorship and publication dates
+- ** Industry Compliance**: EU AI Act model provenance requirements
+- ** Reproducible Science**: Track model lineage and datasets
+- ** Open Source AI**: Clear attribution and licensing
+- ** Legal Protection**: Blockchain timestamp as tamper-proof evidence
 
 ---
 
@@ -190,7 +190,7 @@ Open http://localhost:5173 in your browser!
 
 ---
 
-## 📖 Usage Guide
+##  Usage Guide
 
 ### Register a Model
 
@@ -222,12 +222,12 @@ Open http://localhost:5173 in your browser!
    - Approve MetaMask transaction
    - Done! Model is certified
 
-### Verify a Model (NEW! 🔍)
+### Verify a Model (NEW! )
 
 **Blockchain Transparency Feature** - Anyone can verify model authenticity!
 
 1. **Select Verify Tab**
-   - Click "🔍 Verify Model" tab
+   - Click " Verify Model" tab
 
 2. **Upload Model File**
    - Click file upload zone
@@ -235,24 +235,24 @@ Open http://localhost:5173 in your browser!
 
 3. **View Verification Results**
    
-   **If Model is Verified ✅**:
+   **If Model is Verified **:
    - **Blockchain Proof**: Registration date, file hash, immutability guarantee
    - **Model Information**: Name, owner, framework, architecture, license
    - **Version History**: All versions with timestamps and IPFS links
    - **Matching Version**: Highlighted version that matches your file
    - **Public Verification**: All data is publicly accessible and verifiable
 
-   **If Model Not Found ❌**:
+   **If Model Not Found **:
    - File hash is displayed
    - Option to register the model
    - Confirms file is unique on blockchain
 
 **Why Verification Matters**:
-- ✅ **Transparency**: Anyone can verify ownership and authenticity
-- 🔒 **Immutability**: Records cannot be altered or deleted
-- 🔐 **Cryptographic Proof**: SHA-256 hashes ensure file integrity
-- 📊 **Traceability**: Complete version history and provenance
-- 🌐 **Public Ledger**: All information is publicly accessible
+-  **Transparency**: Anyone can verify ownership and authenticity
+-  **Immutability**: Records cannot be altered or deleted
+-  **Cryptographic Proof**: SHA-256 hashes ensure file integrity
+-  **Traceability**: Complete version history and provenance
+-  **Public Ledger**: All information is publicly accessible
 
 ### View Model Details
 
@@ -271,7 +271,7 @@ curl http://127.0.0.1:8080/ipfs/[CID] -o downloaded_model.pkl
 python tools/compute_hash.py downloaded_model.pkl
 
 # Compare with blockchain hash
-# Match = ✅ Authentic!
+# Match =  Authentic!
 ```
 
 ---
@@ -380,24 +380,26 @@ certify-ai-blockchain/
 
 ### Backend API (http://localhost:3001/api)
 
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/health` | GET | Health check |
-| `/models` | GET | Get all models |
-| `/models/:name` | GET | Get specific model with versions |
-| `/check-duplicate` | POST | Check if file hash exists |
-| `/verify-model` | POST | **NEW!** Comprehensive blockchain verification |
-| `/upload` | POST | Upload file to IPFS |
-| `/hash` | POST | Compute file hash |
-| `/verify` | POST | Verify file hash |
+| Endpoint           | Method | Description                                    |
+|--------------------|--------|------------------------------------------------|
+| `/health`          | GET    | Health check                                   |
+| `/models`          | GET    | Get all models                                 |
+| `/models/:name`    | GET    | Get specific model with versions               |
+| `/check-duplicate` | POST   | Check if file hash exists                      |
+| `/verify-model`    | POST   | **NEW!** Comprehensive blockchain verification |
+| `/upload`          | POST   | Upload file to IPFS                            | 
+| `/hash`            | POST   | Compute file hash                              |
+| `/verify`          | POST   | Verify file hash                               |
 
 ---
 
-## 👥 Authors
+##  Authors
 
 **Salma Lidame** and **Nada Saber**  
 TRI Department, National School of Applied Sciences, El Jadida, Morocco  
-📧 Corresponding authors: lidame.s006@ucd.ac.ma - saber.n842@ucd.ac.ma
+📧 Corresponding authors:
+- lidame.s006@ucd.ac.ma 
+- saber.n842@ucd.ac.ma
 
 ---
 
@@ -479,11 +481,11 @@ Registration       ↓
                    ↓
                Register on Blockchain
                    ↓
-               ✅ Certified!
+                Certified!
 ```
 
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Please:
 1. Fork the repository
