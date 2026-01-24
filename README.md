@@ -8,26 +8,26 @@
 
 ## Key Features
 
-- ** Dual-Mode Interface**: Register new models OR verify existing ones on the blockchain
-- ** File Hash Uniqueness**: Prevents duplicate model registration - same file cannot be registered twice
-- ** Public Verification**: Anyone can verify model authenticity by uploading the file
-- ** Single-Step Registration**: Upload file + metadata in one seamless workflow
-- ** Full Transparency**: Complete ownership chain, version history, and blockchain proof
-- ** Immutability Proof**: Cryptographic timestamps and hashes that cannot be altered
-- ** Comprehensive ML/DL Support**: 17 model types (CNN, RNN, Transformer, GAN, VAE, BERT, GPT, etc.)
-- ** IPFS Storage**: Decentralized, permanent file storage
-- ** Blockchain Immutability**: Tamper-proof records on Ethereum-compatible blockchain
-- ** Cryptographic Verification**: SHA-256 hashing for file integrity
+- **Dual-Mode Interface**: Register new models OR verify existing ones on the blockchain
+- **File Hash Uniqueness**: Prevents duplicate model registration - same file cannot be registered twice
+- **Public Verification**: Anyone can verify model authenticity by uploading the file
+- **Single-Step Registration**: Upload file + metadata in one seamless workflow
+- **Full Transparency**: Complete ownership chain, version history, and blockchain proof
+- **Immutability Proof**: Cryptographic timestamps and hashes that cannot be altered
+- **Comprehensive ML/DL Support**: 17 model types (CNN, RNN, Transformer, GAN, VAE, BERT, GPT, etc.)
+- **IPFS Storage**: Decentralized, permanent file storage
+- **Blockchain Immutability**: Tamper-proof records on Ethereum-compatible blockchain
+- **Cryptographic Verification**: SHA-256 hashing for file integrity
 
 ---
 
 ##  Use Cases
 
-- ** Academic Research**: Prove authorship and publication dates
-- ** Industry Compliance**: EU AI Act model provenance requirements
-- ** Reproducible Science**: Track model lineage and datasets
-- ** Open Source AI**: Clear attribution and licensing
-- ** Legal Protection**: Blockchain timestamp as tamper-proof evidence
+- **Academic Research**: Prove authorship and publication dates
+- **Industry Compliance**: EU AI Act model provenance requirements
+- **Reproducible Science**: Track model lineage and datasets
+- **Open Source AI**: Clear attribution and licensing
+- **Legal Protection**: Blockchain timestamp as tamper-proof evidence
 
 ---
 
